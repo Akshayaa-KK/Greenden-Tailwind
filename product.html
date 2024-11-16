@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <!--Link to Tailwind CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="bg-green-100 p-4 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="font-semibold text-2xl">GREENDEN</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a href="#" class="hover:underline hover:text-black">Home</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline hover:text-black">Products</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline hover:text-black">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Products-->
+    <div class="p-2 m-4 grid grid-rows-2 place-items-center">
+        <h2 class="font-bold text-3xl">Our Products</h2>
+        <input type="text" placeholder="Search for a Product" class="border border-black p-2 m-3 w-10/12">
+    </div>
+    <!--Available Products-->
+    <div class="grid grid-cols-2 text-center md:grid-cols-4 mt-5 gap-5">
+        <div>
+            <img class="w-40 h-56 inline hover:shadow-xl transform hover:-translate-y-2 cursor-pointer"
+                src="./Images/bestseller-1.JPG" alt="bestseller-1">
+            <p>Red Daisy</p>
+            <p>$20</p>
+        </div>
+        <div>
+            <img class="w-40 h-56 inline hover:shadow-xl transform hover:-translate-y-2 cursor-pointer"
+                src="./Images/bestseller-2.jpg" alt="bestseller-2">
+            <p>Foxtile Orchid</p>
+            <p>$25</p>
+        </div>
+        <div>
+            <img class="w-40 h-56 inline hover:shadow-xl transform hover:-translate-y-2 cursor-pointer"
+                src="./Images/bestseller-3.jpg" alt="bestseller-3">
+            <p>Lavendar</p>
+            <p>$15</p>
+        </div>
+        <div>
+            <img class="w-40 h-56 inline hover:shadow-xl transform hover:-translate-y-2 cursor-pointer"
+                src="./Images/bestseller-4.jpg" alt="bestseller-4">
+            <p>Babypink buds</p>
+            <p>$30</p>
+        </div>
+        <div>
+            <img class="w-40 h-56 inline hover:shadow-xl transform hover:-translate-y-2 cursor-pointer"
+                src="./Images/bestseller-1.JPG" alt="bestseller-1">
+            <p>Red Daisy</p>
+            <p>$20</p>
+        </div>
+        <div>
+            <img class="w-40 h-56 inline hover:shadow-xl transform hover:-translate-y-2 cursor-pointer"
+                src="./Images/bestseller-2.jpg" alt="bestseller-2">
+            <p>Foxtile Orchid</p>
+            <p>$25</p>
+        </div>
+        <div>
+            <img class="w-40 h-56 inline hover:shadow-xl transform hover:-translate-y-2 cursor-pointer"
+                src="./Images/bestseller-3.jpg" alt="bestseller-3">
+            <p>Lavendar</p>
+            <p>$15</p>
+        </div>
+        <div>
+            <img class="w-40 h-56 inline hover:shadow-xl transform hover:-translate-y-2 cursor-pointer"
+                src="./Images/bestseller-4.jpg" alt="bestseller-4">
+            <p>Babypink buds</p>
+            <p>$30</p>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="bg-green-100 flex flex-col justify-evenly p-10 m-2 gap-4 w-full h-4/5">
+        <h1 class="font-bold text-3xl">Greenden</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iste reiciendis, sint suscipit quia dignissimos laborum similique dolorum rerum id?</p>
+        <p>&copy; 2024 Greenday.com</p>
+    </footer>
+</body>
+
+</html>
